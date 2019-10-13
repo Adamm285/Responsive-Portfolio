@@ -170,86 +170,101 @@ textarea {
 
 @media screen and (max-width: 980px) {
   .container {
-    width: 600px;
-    margin-left: 10%;
-    padding: 2%;
-    overflow: hidden;
-  }
-
-  .nav-bar {}
-
-  img {}
-
-  h2 {}
-
-  .names {}
-}
-
-@media screen and (max-width: 768px) {
-  .container {
     width: 500px;
     margin-left: 10%;
-    background-color: white;
-    padding: 2%;
-    overflow: hidden
-  }
-
-  .nav-bar {}
-
-  img {}
-
-  h2 {}
-
-  .names {}
-}
-
-@media screen and (max-width: 640px) {
-  .container {
-    width: 550px;
-    margin-left: 2%;
-    background-color: white;
     padding: 2%;
     overflow: hidden;
-    margin-top: 5%;
-    margin-bottom: 10%;
   }
 
-  .nav-bar {
-    height: 110px;
-    bottom: 50%;
-    width: 100%;
-    margin-top: -20px;
-  }
-
-  .heading_name {
-    display: block;
-    text-align: center;
-    padding: 2%;
-    width: 100%;
-    margin-left: -33px;
-    margin-bottom: 10px;
-  }
-
-  .ulnav {
-    display: block;
-    float: left;
-    padding: 2%;
-    text-align: center;
-    margin-left: 25%;
-  }
   img {
-      width: 450px;
-      height: 400px;
-      margin-bottom: -65px;
+    width: 175px;
+    height: 175px;
+    margin-bottom: -20px;
   }
 
   h2 {
-      width: 450px;
+    width: 175px;
   }
 
   .names {
+    margin-left: -5px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 675px;
+      margin: 5% 0% -17% 2%;
+      background-color: white;
+      padding: 2%;
+      overflow: hidden;
+    }
+
+    .heading_name {
+      margin-left: 15px;
+    }
+
+    img {
+      width: 250px;
+      height: 200px;
+      margin-bottom: -20px;
+    }
+
+    h2 {
+      width: 250px;
+    }
+
+    .names {
+      margin-left: -5px;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .container {
+      width: 550px;
+      margin-left: 2%;
+      background-color: white;
+      padding: 2%;
+      overflow: hidden;
+      margin-top: 5%;
+      margin-bottom: 10%;
+    }
+
+    .nav-bar {
+      height: 110px;
+      bottom: 50%;
+      width: 100%;
+      margin-top: -20px;
+    }
+
+    .heading_name {
+      display: block;
+      text-align: center;
+      padding: 2%;
+      width: 100%;
+      margin-left: -33px;
+      margin-bottom: 10px;
+    }
+
+    .ulnav {
+      display: block;
+      float: left;
+      padding: 2%;
+      text-align: center;
+      margin-left: 25%;
+    }
+
+    img {
+      width: 450px;
+      height: 400px;
+      margin-bottom: -65px;
+    }
+
+    h2 {
+      width: 450px;
+    }
+
+    .names {
       margin-bottom: 200px;
       margin-left: -5px;
-
+    }
   }
-}
