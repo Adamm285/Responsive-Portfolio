@@ -58,15 +58,16 @@
 }
 
 #bio-image {
-  width: 200px;
-  height: 200px;
+  width: 25%;
+  height: 25%;
   margin-left: 0%;
   float: left;
 }
 
 p {
   color: grey;
-  float: left;
+  position: relative;
+  overflow: hidden;
 }
 
 #title {
@@ -125,8 +126,8 @@ footer {
   padding: 0;
   line-height: 50px;
   width: 100%;
-  margin-bottom: 0px;
-  position: absolute;
+  bottom: 0px;
+  position: fixed;
   margin-top: 200px;
 }
 
@@ -189,7 +190,18 @@ textarea {
   .names {
     margin-left: -5px;
   }
-
+  #bio-image {
+    width: 40%;
+    height: 40%;
+    margin-left: 0%;
+    float: left;
+    margin: 45px 0px 0px 0px;
+  }
+  p {
+    padding: 1%;
+    line-height: 40px;
+  }
+}
   @media screen and (max-width: 768px) {
     .container {
       width: 675px;
@@ -216,6 +228,17 @@ textarea {
     .names {
       margin-left: -5px;
     }
+    #bio-image {
+      width: 25%;
+      height: 25%;
+      margin-left: 0%;
+      float: left;
+    }
+    p {
+      padding: 1%;
+      line-height: 40px;
+    }
+
   }
 
   @media screen and (max-width: 640px) {
@@ -240,8 +263,8 @@ textarea {
       display: block;
       text-align: center;
       padding: 2%;
-      width: 100%;
-      margin-left: -33px;
+      width: 110%;
+      margin-left: -63px;
       margin-bottom: 10px;
     }
 
@@ -268,4 +291,3 @@ textarea {
       margin-left: -5px;
     }
   }
-}
