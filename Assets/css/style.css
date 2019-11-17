@@ -102,6 +102,7 @@ img {
   height: 250px;
   z-index: 1;
   position: relative;
+  border-radius: 25%;
 }
 
 h2 {
@@ -110,9 +111,9 @@ h2 {
   background-color: #4aaaa5;
   text-align: center;
   position: relative;
-  height: 40px;
+  height: 30px;
   margin-left: 0%;
-  margin-top: -55px;
+  margin-top: -90px;
   z-index: 2;
 }
 
@@ -129,6 +130,7 @@ footer {
   bottom: 0px;
   position: fixed;
   margin-top: 200px;
+  z-index: 3;
 }
 
 li a:hover {
